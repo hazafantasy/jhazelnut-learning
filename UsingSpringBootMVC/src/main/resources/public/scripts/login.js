@@ -1,3 +1,4 @@
+
 function doLogin() {
   var inputEmail = $("#email").val();
   var inputPass = $("#pass").val();
@@ -5,7 +6,6 @@ function doLogin() {
   $("#divErrMsg").hide();
 
   //Make the login validation
-  // ajax
   var request = $.ajax({
     method: "POST",
     url: "/loginvalidation",
